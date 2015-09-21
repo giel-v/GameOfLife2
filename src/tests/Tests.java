@@ -11,7 +11,7 @@ public class Tests {
 
 	@Test
 	public void test() {
-		World world = new World();
+		World world = World.getWorld();
 		Cell cell = new Cell();
 		Assert.assertNotNull(world.getNeighbours(cell));
 	}
